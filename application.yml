@@ -21,3 +21,17 @@ management.security.enabled: false
 
 # Logging
 logging.level.org.springframework: INFO
+
+# OAuth2 security
+security:
+  oauth2:
+    client:
+      client-id: 0oaew1oj7oKqubpnZ0h7
+      access-token-uri: https://dev-154532.oktapreview.com/oauth2/default/v1/token
+      user-authorization-uri: https://dev-154532.oktapreview.com/oauth2/default/v1/authorize
+      scope: openid profile email
+    resource:
+      filter-order: 3
+      user-info-uri: https://dev-154532.oktapreview.com/oauth2/default/v1/userinfo
+      token-info-uri: https://dev-154532.oktapreview.com/oauth2/default/v1/introspect
+      prefer-token-info: false
