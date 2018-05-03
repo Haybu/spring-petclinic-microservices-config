@@ -26,8 +26,8 @@ logging.level.org.springframework: INFO
 security:
   oauth2:
     client:
-      client-id: 0oaew74x60uzkjBcI0h7
-      client-secret: ZVFK15ZIKX22VCXdCwy5QrRGdQUJhC_xbRGFLp4Q 
+      client-id: 0oaew70vj3FfdNqht0h7
+      client-secret: M-MU7dMUVvK8B0ndrS8s1TnflLfSdYqVTbbxCFTr
       access-token-uri: https://dev-154532.oktapreview.com/oauth2/default/v1/token
       user-authorization-uri: https://dev-154532.oktapreview.com/oauth2/default/v1/authorize
       scope: openid profile email
