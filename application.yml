@@ -9,14 +9,13 @@ petclinic:
 
 spring:
   datasource:
-    schema: classpath*:db/${petclinic.database}/schema.sql
     data: classpath*:db/${petclinic.database}/data.sql
   sleuth:
     sampler:
       percentage: 1.0
   jpa:
     hibernate:
-      ddl-auto: none
+      ddl-auto: create-drop
       show_sql: true
       use_sql_comments: true
       format_sql: true
