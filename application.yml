@@ -1,5 +1,7 @@
 # COMMON APPLICATION PROPERTIES
 
+X=3
+
 # start services on random port by default
 server.port: 0
 
