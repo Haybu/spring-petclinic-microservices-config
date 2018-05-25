@@ -23,7 +23,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: *
+        include: '*'
 
 # Logging
 logging.level.org.springframework: INFO
