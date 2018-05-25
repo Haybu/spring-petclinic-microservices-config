@@ -9,7 +9,6 @@ petclinic:
 
 spring:
   datasource:
-    schema: classpath*:db/${petclinic.database}/schema.sql
     data: classpath*:db/${petclinic.database}/data.sql
   sleuth:
     sampler:
